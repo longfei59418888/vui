@@ -2,8 +2,8 @@
 一个vue的UI库，不像那种其他的库，这个库代码简介一扩展，适合有一定喜欢研究代码人研究扩展
 
 
-# demo
-http://60.205.209.185/#/home(没有配置域名)
+# demo(没有配置域名)
+http://60.205.209.185/#/home
 
 # UI
 ### 1.Selection Controls (radio,select...)<br/>
