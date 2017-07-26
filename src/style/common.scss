@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: .24rem;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff
+}
+ul{margin: 0;padding: 0;list-style: none;}
+*{box-sizing: border-box}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+  display: block
+}
+p{margin: 0;}
+audio,canvas,progress,video {
+  display: inline-block;
+  vertical-align: baseline
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}[hidden],template {
+   display: none
+ }
+
+a,a:link {
+  background-color: transparent;
+  color: #333;
+  text-decoration: none
+}
+
+a:active,a:hover,a:focus {
+  outline: 0;
+  color: #23527c;
+  text-decoration: none
+}
+
+abbr[title] {
+  border-bottom: 1px dotted
+}
+
+b{
+  font-weight: bold;
+}
+strong {
+  font-weight: 100
+}
+
+dfn {
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2em
+}
+
+mark {
+  color: #000;
+  background: #ff0
+}
+small {
+  font-size: 80%
+}
+sub,sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline
+}
+sup {
+  top: -.5em
+}
+sub {
+  bottom: -.25em
+}
+svg:not(:root) {
+  overflow: hidden
+}
+
+figure {
+  margin: 1em 40px
+}
+
+button,input,optgroup,select,textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit
+}
+button {
+  overflow: visible
+}
+i{display: inline-block;background-size: 100% 100%;}
+.child-view {
+  position: absolute;
+  width:100%;
+  -webkit-overflow-scrolling: touch; /* ios5+ */
+  -webkit-transition: -webkit-transform .5s cubic-bezier(.55,0,.1,1);
+  transition: transform .5s cubic-bezier(.55,0,.1,1);
+}
+.slide-no-enter,.slide-no-leave-active {
+  -webkit-transition: -webkit-transform 0s;  transition: trnsform 0s;  -webkit-transform: translate(0, 0);  transform: translate(0, 0);  }
+.slide-left-enter, .slide-right-leave-active {
+  -webkit-transform: translate(100%, 0);  transform: translate(100%, 0);}
+.slide-left-leave-active, .slide-right-enter {
+  -webkit-transform: translate(-100%, 0);  transform: translate(-100%, 0);}

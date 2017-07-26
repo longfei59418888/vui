@@ -1,0 +1,61 @@
+@mixin flexNum($num){
+  flex: $num;
+  -webkit-flex: $num;
+}
+@mixin backgroundGradient($s,$e){
+  background: -webkit-linear-gradient($s, $e); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient($s, $e); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient($s, $e); /* Firefox 3.6 - 15 */
+  background: linear-gradient($s, $e); /* 标准的语法 */
+}
+//背景图大小及其宽高
+@mixin setWidthBackground($w,$h){
+  height: $h;width: $w;
+  background-size: $w $h;
+}
+
+@mixin floatWidth($w){
+  float: left;width: $w;
+}
+
+@mixin transitionCom($p,$t){
+  -webkit-transition: $p $t;
+  -moz-transition: $p $t;
+  -ms-transition: $p $t;
+  -o-transition: $p $t;
+  transition: $p $t;
+}
+
+.flex-justify-content-end{
+  justify-content:flex-end;
+  -webkit-justify-content:flex-end;
+}
+//上下左右居中
+.flex-mixin-center-item{
+  -webkit-align-items:center;
+  align-items:center;
+  -webkit-align-content:center;
+  align-content:center;
+}
+.flex-mixin-wrap{
+  -webkit-flex-wrap:wrap;
+  flex-wrap:wrap;
+}
+.flex-mixin-center{
+  display: flex;
+  display: -webkit-flex;
+    align-items:center;
+  -webkit-align-items:center;
+  justify-content:center;
+  -webkit-justify-content:center;
+}
+.change_common_hide_header{
+  display: none !important;
+}
+.flex-mixin-center-align{
+  display: flex;
+  display: -webkit-flex;
+  align-items:center;
+  -webkit-align-items:center;
+}
+

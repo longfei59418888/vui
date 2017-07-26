@@ -1,0 +1,20 @@
+@import "mixin";
+@import "common";
+.common_display_flex{
+  display: flex;
+}
+.common-flex-mixin-center{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.common-flex-mixin-middle{
+  display: flex;
+  align-items:center;
+}
+.common_backgroundGradient{
+  @include backgroundGradient(rgba(0,0,0,.4),rgba(0,0,0,0));
+}
+::-webkit-input-placeholder  {
+  color:#ccc !important;
+}
