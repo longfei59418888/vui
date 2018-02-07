@@ -3,7 +3,7 @@
 
 
 # demo(没有配置域名)
-http://60.205.209.185/#/home
+http://study-xiaolong.oss-cn-beijing.aliyuncs.com/test/index.html#/home
 
 # UI
 ### 1.Selection Controls (radio,select...)<br/>
