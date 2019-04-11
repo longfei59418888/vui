@@ -5,6 +5,9 @@
              <div class="item-box"><item :to="{name:'selection'}" title="Selection Controls (radio,select...)" bottom="true"></item></div>
              <div class="item-box"><item :to="{name:'action-sheet'}" title="Action Sheet (下弹框)" bottom="true"></item></div>
              <div class="item-box"><item :to="{name:'toast'}" title="Toast (提示框)" bottom="true"></item></div>
+             <div class="item-box"><item :to="{name:'marquee'}" title="Marquee (走马灯)" bottom="true"></item></div>
+             <div class="item-box"><item :to="{name:'reclick'}" title="reclick (防止重复点击)" bottom="true"></item></div>
+             <div class="item-box"><item :to="{name:'telInput'}" title="telInput (手机号空格处理)" bottom="true"></item></div>
              <div class="item-box"><item :to="{name:'popup'}" title="Popup (Confirm,Alert)" bottom="true"></item></div>
              <div class="item-box"><item :to="{name:'list'}" title="list (item)" bottom="true"></item></div>
              <div class="item-box"><item :to="{name:'modal'}" title="Modal (弹出层)" bottom="true"></item></div>

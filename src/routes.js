@@ -19,6 +19,9 @@ import infinite from './views/infinite/index.vue'
 import imgload from './views/imgload/index.vue'
 import smooth from './views/smooth/index.vue'
 import time from './views/time/index.vue'
+import marquee from './views/marquee/index.vue'
+import reclick from './views/reclick/index.vue'
+import telInput from './views/telInput/index.vue'
 
 const routers = [
     {path:'/',component:index,children:[
@@ -38,6 +41,9 @@ const routers = [
         {path:'imgload',component:imgload,meta: { test: true },name:'imgload'},
         {path:'smooth',component:smooth,meta: { test: true },name:'smooth'},
         {path:'time',component:time,meta: { test: true },name:'time'},
+        {path:'marquee',component:marquee,meta: { test: true },name:'marquee'},
+        {path:'reclick',component:reclick,meta: { test: true },name:'reclick'},
+        {path:'telInput',component:telInput,meta: { test: true },name:'telInput'},
     ]},
 ]
 
